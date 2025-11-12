@@ -45,9 +45,22 @@ else:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 
+scored = int(input("Enter your score (0-100):"))
+
+if 50<=scored <=100:
+    print("Congrats! You passed")
+else:
+    print ("Try again")
+
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
 
+cheking= int(input("Enter a number:"))
+if 1<=cheking <=10:
+    print("Congrats, you get the pass")
+else:
+    print ("Try again")
 # Use chained comparison to check if 3 < 4 < 5.
 
+print (3 < 4 < 5)
 # Challenge: Create a password rule using logical operators:
 
