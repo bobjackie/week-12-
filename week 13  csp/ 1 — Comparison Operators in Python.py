@@ -29,13 +29,13 @@ print(a <= b)   # True
 
 # Write 3 examples that result in True and 3 that result in False.
 
-6 > 3
-2 = 2 + 2 - 2 
-7 = 7
+print(6 > 3)
+print(2 == 2) 
+print(7 == 7)
 
-8 = 8 + 1 - 5 
-7 < 3
-10 = 9
+print(8 == 8 + 1 - 5)
+print(7 < 3)
+print(10 == 9)
 
 # Create a simple grade-checking condition:
 
