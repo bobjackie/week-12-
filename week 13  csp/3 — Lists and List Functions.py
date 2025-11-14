@@ -19,11 +19,26 @@ print(my_list)
 numbers = [3, 1, 4, 2]
 numbers.sort()
 print(numbers)
+print(type(numbers))
+print(numbers[0])
+print(numbers[1:4]) 
+print(numbers[0:])   
 
+numbers.append(6)
+print(numbers)
+numbers.extend([10,11,12,13,14,15])
+print(numbers)
+numbers.extend(list(range(15, 550)))
+print(numbers)
+numbers.extend(list(range(550, 1000)))
+print(numbers)
 
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
+my_list1 = ['vegtable','whole grain bread','gingerbread chai','vegimite','chick-fila']
+print(my_list1)
+
 
 # Print the second and last item.
 
