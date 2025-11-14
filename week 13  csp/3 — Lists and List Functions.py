@@ -33,6 +33,42 @@ print(numbers)
 numbers.extend(list(range(550, 1000)))
 print(numbers)
 
+new_list =['a','b','c']
+print(new_list)
+new_list.append('d')
+print(new_list)
+removed_item = new_list.pop()
+print(removed_item)
+print(new_list)
+remove_second_item = new_list.pop(1)
+print(remove_second_item)
+print(new_list)
+
+number = [4, 2, 5, 1, 3]
+number.sort()
+print(number)
+
+number.reverse()
+print(number)
+number.insert(2, 10)
+print(number)
+third_list = [7, 8, 9]
+third_list[0] = 6
+print(third_list)
+third_list[-1] = 10
+print(third_list)
+
+
+import random
+random_list = random.sample(range(1, 100), 10)
+print(random_list) 
+print(sorted(random_list))
+
+
+sorted_list = sorted(random_list)
+print(sorted_list)
+
+
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
