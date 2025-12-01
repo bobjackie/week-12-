@@ -12,3 +12,17 @@
 
 # Starter Code:
 
+# Asks the user for today’s temperature.
+temp=int(input("Insert Temperature " \
+" :"))
+
+# Prints whether it’s cold, warm, or hot using comparison operators.
+if temp > 50 and temp <= 85 :
+    print(" The weather is seems to be perfect")
+elif temp <= 50 and -10 < temp:
+        print("its very cold, wear a jakcet!")
+elif temp >= 86 and temp <= 109:
+    print("Its very hot!!!!!")
+else:
+ print("Extreme temp warning, STAY INSIDE")
+
